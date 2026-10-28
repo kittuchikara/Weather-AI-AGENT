@@ -1,10 +1,10 @@
-## 🌦️ Weather AI Agent
+# 🌦️ Weather AI Agent
 
 An AI-powered weather assistant built using Python, Groq, Open-Meteo API, and Streamlit. It retrieves live weather information for cities around the world and allows users to compare weather conditions across multiple locations through natural language queries.
 
 The application uses LLM-based tool calling to understand user requests, execute Python weather functions, retrieve actual weather data, and generate conversational responses.
 
-# 🚀 Features
+## 🚀 Features
 * Live Weather Information: Retrieve current temperature, weather conditions, and wind speed for cities worldwide.
 * Multi-City Weather Comparison: Compare current weather conditions between multiple cities.
 * AI Tool Calling: Uses Groq LLMs to identify when weather tools should be executed.
@@ -15,7 +15,7 @@ The application uses LLM-based tool calling to understand user requests, execute
 * Streamlit Chat Interface: Interactive chat interface with conversation history.
 * Cloud Deployment: Deployed using Streamlit Community Cloud.
 
-# 🧠 How It Works
+## 🧠 How It Works
 
 1.The application follows an LLM-based tool-calling workflow.
 2.The user submits a weather-related query through the Streamlit interface.
@@ -27,11 +27,11 @@ The application uses LLM-based tool calling to understand user requests, execute
 8.The actual weather result is returned to the LLM.
 9.The LLM generates a concise, natural-language response for the user.
 
-# 🛠️ Tech Stack
+## 🛠️ Tech Stack
 
 Python | Groq | Qwen | Open-Meteo API | Streamlit | Jinja2 | GitHub | Requests 
 
-# Agent Workflow
+## Agent Workflow
 
 User Query
     ↓
@@ -53,9 +53,9 @@ LLM Generates Response
     ↓
 Streamlit Displays Answer
 
-## ⚙️ Installation and Setup
+# ⚙️ Installation and Setup
 
-# 1. Clone the Repository
+## 1. Clone the Repository
 
 git clone https://github.com/YOUR_USERNAME/Weather-AI-AGENT.git
 
@@ -63,7 +63,7 @@ Navigate to the project directory:
 
 cd Weather-AI-AGENT
 
-# 2. Create a Virtual Environment
+## 2. Create a Virtual Environment
 
 python -m venv venv3
 
@@ -77,11 +77,11 @@ Git Bash:
 
 source venv3/Scripts/activate
 
-# 3. Install Dependencies
+## 3. Install Dependencies
 
 pip install -r requirements.txt
 
-# 4. Configure Environment Variables
+## 4. Configure Environment Variables
 
 Create a .env file in the project root.
 
@@ -103,7 +103,7 @@ Important: Never upload your .env file or expose your API key publicly.
 
 Open-Meteo's standard weather endpoints do not require an API key for typical usage.
 
-# 5. Run the Application
+## 5. Run the Application
 
 streamlit run app.py
 
@@ -111,4 +111,4 @@ The application will open in your browser.
 
 # 🌐 Deployment
 Deployed using Streamlit Community Cloud.
-# Live link-> https://weather-ai-agent-8czu5rpjsql9gkmzsrhtkm.streamlit.app/
+## Live link -> https://weather-ai-agent-8czu5rpjsql9gkmzsrhtkm.streamlit.app/
