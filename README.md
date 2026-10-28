@@ -65,6 +65,7 @@ Weather Data
 LLM Generates Response
     ↓
 Streamlit Displays Answer
+```
 
 # ⚙️ Installation and Setup
 
