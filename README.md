@@ -6,11 +6,17 @@ The application uses LLM-based tool calling to understand user requests, execute
 
 ## 🚀 Features
 🌍 Live weather information for cities worldwide
+
 🌡️ Current temperature, weather conditions, and wind speed
+
 🔄 Compare weather between multiple cities
+
 🤖 Groq LLM with Python tool calling
+
 🧠 Dynamic system prompts using Jinja2
+
 💬 Interactive Streamlit chat interface
+
 ☁️ Deployed on Streamlit Community Cloud
 
 ## 🧠 How It Works
@@ -37,8 +43,9 @@ The application uses LLM-based tool calling to understand user requests, execute
 
 Python | Groq | Qwen | Open-Meteo API | Streamlit | Jinja2 | GitHub | Requests 
 
-## Agent Workflow
+### Agent Workflow
 
+```text
 User Query
     ↓
 Streamlit Chat Interface
