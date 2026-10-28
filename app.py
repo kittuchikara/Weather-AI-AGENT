@@ -40,6 +40,17 @@ with st.sidebar:
 if "chat_log" not in st.session_state:
     st.session_state.chat_log = []
 
+if not st.session_state.chat_log:
+
+    st.title("🌦️ Weather AI Assistant")
+
+    st.markdown("### Hello there! 👋")
+
+    st.markdown(
+        "How can I help you today? "
+        "Ask me about current weather conditions anywhere in the world."
+    )
+
 for entry in st.session_state.chat_log:
     if entry.get("content"):
         with st.chat_message(entry["role"]):
